@@ -1,4 +1,4 @@
-# CNG Usage Optimization for Sinotruk HOWO MT13.43-50 (Euro 5)
+# CNG Usage Optimization for Sinotruk HOWO MT13
 
 ## Table of Contents
 1. [Project Overview](#project-overview)  
