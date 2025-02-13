@@ -14,9 +14,9 @@
 ---
 
 ## Project Overview
-This repository contains a **linear optimization** (Simplex) demonstration for **Compressed Natural Gas (CNG) usage** in a **Sinotruk HOWO MT13.43-50** 6x4 tractor truck:
+This repository contains a **linear optimization** (Simplex) demonstration for **Compressed Natural Gas (CNG) usage** in a **Sinotruk HOWO MT13:
 
-- **Engine:** 430 HP, Euro 5 Emission Standard (MT13.43-50)
+- **Engine:** 430 HP, Euro 5 Emission Standard (MT13)
 - **Objective:** To optimize engine performance and CNG efficiency, subject to emission and power constraints.
 - **Approach:** Proof-of-concept **linear** model using [PuLP](https://github.com/coin-or/pulp) for optimization and [Streamlit](https://streamlit.io/) for the user interface.
 
@@ -143,7 +143,6 @@ Once you press **"Optimize"** and receive a solution:
    - If performance changes significantly with small variable deviations, the solution might require fine-tuned controls in real-world applications.
 
 ---
-
 ## Future Work
 1. **Nonlinear Modeling**  
    - Real engine calibration typically uses more complex models (e.g., polynomial, multi-dimensional maps, or thermodynamic simulation).  
@@ -160,11 +159,3 @@ Once you press **"Optimize"** and receive a solution:
    - Account for uncertainties (fuel quality variability, ambient conditions, sensor drift).
 
 ---
-
-## License
-This project is intended as an **educational/academic** resource. You may adapt or extend the code for personal or research use. For commercial or production use, consult appropriate legal terms and conditions.
-
----
-
-**© 2025 Sinotruk HOWO MT13 CNG Optimization Demonstration**  
-Developed as a proof-of-concept for project defense and academic demonstration.
